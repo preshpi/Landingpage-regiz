@@ -12,7 +12,7 @@ function About() {
 
       {/* Wording spacing in small screen */}
 
-      <p className="text-xl words xl:text-[20px]" data-aos="slide-up">
+      <p className="text-xl mt-3 lg:leading-10 lg:tracking-wider tracking-wide leading-9 words" data-aos="slide-up">
        Regiz is a Generation Alpha Digital   
        project that focuses on the authentication, verification, and digitization 
        of documents so that they can be electronically stored more compactly and securely. 

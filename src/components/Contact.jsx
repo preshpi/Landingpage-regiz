@@ -32,8 +32,8 @@ function Contact() {
             <a href="https://instagram.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center text-black shadow-lg shadow-[#fff]  dark:shadow-[#CFCFCF] hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667292880/insta_e0af8q.png" className="text-center" alt="instagram"/>
             </a>
-            <a href="https://instagram.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center  shadow-lg shadow-[#fff]  dark:shadow-[#1BBDFB] hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-4">
-              <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1669907771/icons8-mail-48_f6ywi8.png" className="text-center mt-2 p-[-8px]" alt="mail"/>
+            <a href="https://instagram.com/Regizofficial" type="button" class="grid place-items-center w-12 h-12 m-2">
+              <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1669907771/icons8-mail-48_f6ywi8.png" className="text-center mt-2 " alt="mail"/>
             </a>         
             <a href="mailto:regizofficial@outlook.com" type="button" class="rounded-lg grid place-items-center items-center shadow-lg shadow-[#fff] dark:shadow-[#2172B9]  text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">      
             <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667293899/blueout_liiegk.png" className="text-center rounded-[10px] mt-2" alt="outlook"/>

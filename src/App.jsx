@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll'
-
+import AnimatedCursor from "react-animated-cursor"
 import About from './components/About'
 import Features from './components/Features'
 import Benefits from './components/Benefits'
@@ -10,8 +10,18 @@ import Team from './components/Team'
 import Personna from './components/Personna'
 import Roadmap from './components/Roadmap'
 import Contact from './components/Contact'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 function App() {
+
+
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+
+}, []);
 
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
@@ -41,6 +51,27 @@ function App() {
 
   return (
     <>
+     <AnimatedCursor
+      innerSize={9}
+      outerSize={15}
+      color='102, 204, 123'
+      outerAlpha={0.2}
+      innerScale={0.7}
+      outerScale={5}
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link'
+      ]}
+      />
       <div className='w-screen h-[80px] z-10 fixed drop-shadow-lg bg-[#00141B]  text-black dark:text-white'>
         <div className=' flex justify-between items-center w-full h-full shadow-lg cursor-pointer'> 
                     {/* logo image */}
@@ -311,8 +342,8 @@ function App() {
             </ul> 
 
 
-            <div className='md:hidden mr-4 cursor-pointer' onClick={handleClick}>
-                {!nav ? <span className="rounded-lg w-[40px] h-[40px] text-[#ffff] ">☰</span>  :  <span className="w-[40px] h-[40px] text-[#FF1700]">x</span> }            
+            <div className='md:hidden pr-8 cursor-pointer' onClick={handleClick}>
+                {!nav ? <span className="rounded-lg w-[60px] h-[60px] px-5 py-8 text-[#ffff] ">☰</span>  :  <span className="w-[90px] h-[90px] px-5 py-8 text-[#FF1700]">x</span> }            
             </div>   
 
                {/* mobile navbar */}
@@ -598,7 +629,7 @@ function App() {
      
 
 
-      <div className="bg-white dark:bg-slate-900 min-h-screen font-inter">
+      <div className="bg-white dark:bg-[#0C1017] min-h-screen font-inter">
         <div className="overflow-hidden">
            <About/>
            <Features/>
@@ -607,8 +638,8 @@ function App() {
            <Howitworks/>
            <Team/>
            <Personna/>
-           {/*  <Roadmap/>
-           <Contact/> */}
+            <Roadmap/>
+           <Contact/>
         </div>
       </div>
     </>

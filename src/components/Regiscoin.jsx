@@ -2,16 +2,16 @@ import React from 'react'
 
 function Regiscoin() {
   return (
-    <div name='Regiscoin' className="lg:pt-[700px] pt-[300px] dark:bg-[#070909] bg-[#fff]">
-    <h1 className="lg:text-5xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 p-5">Regiscoin</h1> 
+    <div name='Regiscoin' className="pt-5 dark:bg-[#070909] bg-[#fff]">
+    <h1 className="lg:text-5xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 pt-5">Regiscoin</h1> 
    
-    <div className="grid lg:grid-cols-2 lg:m-10 m-5 place-items-center  items-center justify-center">
-        <div data-aos="fade-left" className="tracking-wider leading-10  lg:text-start text-center">
-            <p className=" dark:text-white text-black  text-xl  lg:text-2xl w-[330px] md:w-[400px] lg:w-[600px]">
+    <div className="grid lg:grid-cols-2 lg:m-10 m-5 place-items-center gap-5 lg:gap-10  items-center justify-center">
+        <div data-aos="fade-left" className="tracking-wider leading-10  m-5 lg:text-start  break-word place-items-center">
+            <p className=" dark:text-white text-black  text-xl  lg:text-2xl w-[320px] md:w-[400px] lg:w-[600px]">
              Regiscoin is a token owned by Regiz LLC.
             </p>
 
-            <p className=" dark:text-white text-black mt-3  text-xl tracking-wider leading-[32px]  lg:text-xl w-[330px] md:w-[400px] lg:w-[600px]">
+            <p className=" dark:text-white text-black mt-3  text-xl tracking-wider leading-[32px]  lg:text-xl w-[310px] md:w-[400px] lg:w-[600px]">
              Regiscoin will be used for payments to access services on the platform.
              Either on the Documentation Technology platform or Social Marketplace,
              Regiscoin will be our acceptable transaction currency. The purpose of 
@@ -21,8 +21,8 @@ function Regiscoin() {
 
         </div>
 
-        <div className="mt-5 lg:mt-0 flex items-center justify-center" data-aos="fade-right">
-       <div className=" bg-[#66CC7B] text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[500px]  lg:w-[500px] ">
+        <div className="mt-5 lg:mt-0 flex items-center justify-center place-items-center" data-aos="fade-right">
+       <div className=" bg-[#66CC7B] text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px]  lg:w-[400px] xl:w-[700px]">
          <div className="flex text-black justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
             <p>Token Name</p>
             <p className="text-end">Regis coin</p>

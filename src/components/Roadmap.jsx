@@ -6,7 +6,7 @@ function Roadmap() {
     <h1 className="text-5xl text-center mt-3 dark:text-white text-black font-bold tracking-wide mb-5 p-5">Roadmap</h1>
     <p className="text-gray-500 text-xl leading-5 text-center font-[poppins] p-5">Project roadmap for the year 2022/23</p>
     <div className="grid place-items-center justify-center items-center">
-    <div className="grid place-items-center justify-center items-center m-5 bg-gray-100 rounded-lg dark:bg-[#070909] w-[1500px]">
+    <div className="grid place-items-center justify-center items-center m-5 bg-gray-100 rounded-lg dark:bg-[#0C1017] w-[1500px]">
     <div className="container  m-10 rounded-lg grid place-items-center items-center justify-center bg-gray-300 lg:w-[1000px] dark:bg-[#0C1017] ">
       <div className="timeline">
         <ul className="m-20"> 
