@@ -631,9 +631,9 @@ function App() {
 
       <div className="bg-white dark:bg-[#0C1017] min-h-screen font-inter">
         <div className="overflow-hidden">
-           <About/>
-           <Features/>
+           <About/>         
            <Benefits/>
+           <Features/>
           <Regiscoin/>
            <Howitworks/>
            <Team/>
