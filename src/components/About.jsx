@@ -5,14 +5,14 @@ function About() {
     <div name='about' className="pt-[70px] dark:bg-[#0C1017] bg-gray-50">
     <h1 className="lg:text-5xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide mb-5 pt-5">About Regiz</h1>
     
-    <div className="dark:text-gray-300 about-text text-black" data-aos="slide-up">
+    <div className="dark:text-gray-300 about-text text-black">
      
       <div className="box place-items-center lg:text-start text-center justify-center items-center  lg:w-[800px] md:w-[500px] w-[300px]  m-10">
       <input type="checkbox" id="check"/>
 
       {/* Wording spacing in small screen */}
 
-      <p className="text-xl mt-3 lg:leading-10 lg:tracking-wider tracking-wide leading-9 words" data-aos="slide-up">
+      <p className="text-xl mt-3 lg:leading-10 lg:tracking-wider leading-9 break-normal lg:words">
        Regiz is a Generation Alpha Digital   
        project that focuses on the authentication, verification, and digitization 
        of documents so that they can be electronically stored more compactly and securely. 
