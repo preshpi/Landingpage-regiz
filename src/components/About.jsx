@@ -12,9 +12,9 @@ function About() {
 
       {/* Wording spacing in small screen */}
 
-      <p className="text-xl mt-3 lg:leading-10 lg:tracking-wider leading-9 break-normal lg:words">
-       Regiz is a Generation Alpha Digital   
-       project that focuses on the authentication, verification, and digitization 
+      <p className="text-xl mt-3 lg:leading-10 lg:tracking-wider leading-9 break-word lg:words">
+       Regiz is a Generation Alpha Digital documentation
+       technology project that focuses on the authentication, verification, and digitization 
        of documents so that they can be electronically stored more compactly and securely. 
        It may be educational certificates or professional certifications, computerized receipts,
        work identification cards, or any suitable documents.
@@ -29,10 +29,13 @@ function About() {
         </p>
 
         <p className="text-xl mt-3 lg:leading-10 lg:tracking-wider tracking-wide leading-9 words">
-        All documents that are issued by a government-registered institution/organization will pass through a verification/confirmation process.
-        These documents can also be looked up by a third party, (using the Regiz app) with authorization from the owner to confirm their authenticity globally.
-        Regiz will be a decentralized application, (where users will be in charge of their Data Like they are in Charge of their Money)
-        built on blockchain technology. 
+        A verification and validation process will be applied to all certificates issued by institutions and organizations that are registered with the government.
+        With the owner's permission, third parties can also check up on these documents for confirmation purposes 
+        (using the Regiz app). This allows anyone to verify its legitimacy globally.
+        </p>
+        <p className="text-xl mt-3 lg:leading-10 lg:tracking-wider tracking-wide leading-9 words">
+        Regiz will be a decentralized application based on blockchain technology where users 
+        will have control over their data much like they do over their money.
         </p>
 
         <p className="text-xl mt-3 leading-8 tracking-wide">

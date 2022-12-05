@@ -636,8 +636,8 @@ function App() {
            <Features/>
           <Regiscoin/>
            <Howitworks/>
-           <Team/>
            <Personna/>
+            <Team/>
             <Roadmap/>
            <Contact/>
         </div>

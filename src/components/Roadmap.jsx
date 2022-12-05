@@ -2,7 +2,7 @@ import React from 'react'
 
 function Roadmap() {
   return (
-    <div name='roadmap' className="text-white pt-5 dark:bg-[#0C1017] bg-[#F3F4F6]">
+    <div name='roadmap' className="text-white pt-5 dark:lg:pt-20 dark:bg-[#0C1017] bg-[#F3F4F6]">
     <h1 className="text-5xl text-center mt-3 dark:text-white text-black font-bold tracking-wide mb-5 p-5">Roadmap</h1>
     <p className="text-gray-500 text-xl leading-5 text-center font-[poppins] p-5">Project roadmap for the year 2022/23</p>
     <div className="grid place-items-center justify-center items-center">
