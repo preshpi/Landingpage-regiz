@@ -2,16 +2,16 @@ import React from 'react'
 
 function Regiscoin() {
   return (
-    <div name='Regiscoin' className="pt-5 dark:bg-[#070909] bg-[#fff]">
+    <div name='Regiscoin' className="pt-5 dark:bg-[#070909] bg-gray-100 ">
     <h1 className="lg:text-5xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 pt-5">Regiscoin</h1> 
    
-    <div className="grid lg:grid-cols-2 lg:m-10 m-5 place-items-center gap-5 lg:gap-10  items-center justify-center">
-        <div data-aos="fade-left" className="tracking-wider leading-10  m-5 lg:text-start  break-word place-items-center">
+    <div className="grid lg:grid-cols-2 lg:m-10 m-5 place-items-center gap-5 lg:gap-10  items-center justify-center  ">
+        <div data-aos="fade-left" className=" leading-10  m-5 lg:text-start  break-word place-items-center">
             <p className=" dark:text-white text-black  text-xl  lg:text-2xl w-[320px] md:w-[400px] lg:w-[600px]">
              Regiscoin is a token owned by Regiz LLC.
             </p>
 
-            <p className=" dark:text-white text-black mt-3  text-xl tracking-wider lg:leading-[52px] leading-10  lg:text-xl w-[310px] md:w-[400px] lg:w-[600px] break-word words">
+            <p className=" dark:text-white text-black mt-3  text-xl  lg:leading-[52px] leading-10  lg:text-xl w-[310px] md:w-[400px] lg:w-[600px] break-word words">
              Regiscoin will be used for payments to access services on the platform.
              Either on the Documentation Technology platform or Social Marketplace,
              Regiscoin will be our acceptable transaction currency. The purpose of 
@@ -72,7 +72,7 @@ function Regiscoin() {
         </div>
     </div>
 
-      <div className="dark:bg-[#0C1017] bg-gray-100 p-8">
+      <div className="dark:bg-[#0C1017] p-8 bg-[#fff]">
       <h1 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">Token Distribution</h1> 
       <div className="lg:m-20 text-start m-5">
          <p className="dark:text-white text-black text-xl">Presale 12%</p>

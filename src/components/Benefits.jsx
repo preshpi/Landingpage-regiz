@@ -2,7 +2,7 @@ import React from 'react'
 import { GiCheckMark } from 'react-icons/gi';
 function Benefits() {
   return (
-    <div name='benefit' className=" dark:bg-[#0C1017]  bg-gray-100 dark:text-[#fff] pt-5">
+    <div name='benefit' className=" dark:bg-[#0C1017]  bg-gray-100 dark:text-[#fff] pt-5 lg:h-[600px]">
       <h1 className="lg:text-5xl text-3xl text-center mt-3 text-black font-bold tracking-wide mb-5 dark:text-[#fff] pt-8">BENEFITS</h1>
 
       <div className="justify-between place-items-center items-center font-[poppins] " data-aos="fade-up">

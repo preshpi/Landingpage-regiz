@@ -39,7 +39,7 @@ function Personna() {
         <p className="text-black dark:text-white text-xl text-center mt-2 ">Mary pays a token for Minting using RegisCoin.</p>
         <p className="text-black dark:text-white text-xl text-center mt-2 ">
         Mary mints on each document a Grade B Minting stamp that reads, "Certificate Genuine but unverified," 
-        as well as an unique Identification Number.
+        as well as a unique Identification Number.
         </p>
       </div>
 
@@ -83,7 +83,7 @@ function Personna() {
       </div> 
 
    </div>   
-      <div className="justify-center place-items-center grid">
+      <div className="justify-center place-items-center grid mt-8">
       <p className="text-[#000000] dark:text-white text-2xl text-center mt-2  italic font-bold p-5 lg:w-[50%] items-center grid place-items-center justify-center">
       "Eric Owen’s Limited HR team are looking to employ young 
       and talented individuals to fill various positions that 
@@ -132,7 +132,7 @@ function Personna() {
      <div className="m-5 grid place-items-center justify-center">
      <div className="m-5 grid place-items-center justify-center" data-aos="fade-up">
         <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1668435270/casual-life-3d-girl-with-boxes-1_duhqch.png" alt="boywithlaptop" className="w-72"/>
-        <p className="text-black dark:text-white text-xl text-center mt-2">Eric Owen’s HR Team were able to confirm the authenticity of Mary’s Certificate
+        <p className="text-black dark:text-white text-xl text-center mt-2">Eric Owen’s HR Team was able to confirm the authenticity of Mary’s Certificate
           and Mary got her Dream Job. </p>
         </div>
      </div>

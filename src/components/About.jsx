@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div name='about' className="pt-[70px] dark:bg-[#0C1017] bg-gray-50">
+    <div name='about' className="pt-[70px] dark:bg-[#0C1017] bg-white">
     <h1 className="lg:text-5xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide mb-5 pt-5">About Regiz</h1>
     
     <div className="dark:text-gray-300 about-text text-black">
