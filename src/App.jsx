@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { FiMenu } from "react-icons/fi"
+import { AiOutlineClose } from "react-icons/ai"
 import AnimatedCursor from "react-animated-cursor";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
@@ -65,7 +67,7 @@ function App() {
           ".link",
         ]}
       />
-      <div className="w-screen h-[80px] z-10 fixed drop-shadow-lg bg-[#00141B]  text-black dark:text-white">
+      <div className="w-screen h-[80px] z-10 fixed drop-shadow-lg bg-[#02383C]  text-black dark:text-white">
         <div className=" flex justify-between items-center w-full h-full shadow-lg cursor-pointer">
           {/* logo image */}
           <div className="lg:flex items-center md:hidden flex">
@@ -395,13 +397,9 @@ function App() {
 
           <div className="md:hidden pr-8 cursor-pointer" onClick={handleClick}>
             {!nav ? (
-              <span className="rounded-lg w-[60px] h-[60px] px-5 py-8 text-[#ffff] ">
-                ☰
-              </span>
+                <FiMenu className="w-10 h-10  px-2 py-2 rounded-md text-white"/>
             ) : (
-              <span className="w-[90px] h-[90px] px-5 py-8 text-[#FF1700]">
-                x
-              </span>
+                <AiOutlineClose className="text-[#FF1700] w-10 h-10  px2 py-2 rounded-md"/>
             )}
           </div>
 
@@ -756,14 +754,14 @@ function App() {
               <button
                 type="button"
                 onClick={handleThemeSwitch}
-                className="w-12 bg-[#3CC3A9] text-lg px-2 py-2 m-3 rounded-md"
+                className="w-12 bg-[#02383C] text-lg px-2 py-2 m-3 rounded-md"
               >
                 {theme === "dark" ? (
                   <div className="text-white">
                     <ion-icon name="sunny"></ion-icon>{" "}
                   </div>
                 ) : (
-                  <div className="">
+                  <div className="text-white">
                     <ion-icon name="moon"></ion-icon>
                   </div>
                 )}

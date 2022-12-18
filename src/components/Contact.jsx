@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 function Contact() {
   return (
-    <div name='contact' className=" lg:h-[490px]  p-12 bg-[#258c5e] font-[poppins]">
+    <div name='contact' className=" lg:h-[490px]  p-12 bg-[#02383C] font-[poppins]">
       <img
         src="https://res.cloudinary.com/dpokiomqq/image/upload/v1669907395/regiz.io_k42k2m-removebg-preview_hv3mzn.png"
         className="w-[80px] bg-black rounded-full px-2 py-2"
@@ -124,7 +124,7 @@ function Contact() {
             <a
               href="https://facebook.com/Regizofficial"
               type="button"
-              className="rounded-full border-2 text-[#258c5e] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+              className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
             >
               <svg
                 aria-hidden="true"
@@ -146,7 +146,7 @@ function Contact() {
             <a
               href="https://twitter.com/Regizofficial"
               type="button"
-              className="rounded-full border-2 text-[#258c5e] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+              className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
             >
               <svg
                 aria-hidden="true"
@@ -168,7 +168,7 @@ function Contact() {
             <a
               href="https://instagram.com/Regizofficial"
               type="button"
-              className="rounded-full border-2 text-[#258c5e] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+              className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
             >
               <svg
                 aria-hidden="true"
@@ -190,7 +190,7 @@ function Contact() {
             <a
               href="https://www.linkedin.com/in/Regiz/"
               type="button"
-              className="rounded-full border-2 text-[#258c5e] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+              className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
             >
               <svg
                 aria-hidden="true"
@@ -213,16 +213,11 @@ function Contact() {
         </div>
       </div>
 
-         <div className="grid lg:grid-cols-2 justify-between mt-10 text-white">
-            <div className="mb-3">
+        <div className="mb-3 text-white">
               <span className="hover:underline">Privacy |</span> 
               <span className="hover:underline"> Terms</span>
-               <p className="mt-3">© 2022 Regiz. All rights reserved.</p>
+               <p className="mt-3">© 2022 Regiz LLC. All rights reserved.</p>
             </div>
-            <div className="lg:justify-end lg:items-end lg:text-end">
-              <p>Made with ♡</p>
-            </div>
-          </div>
        <ScrollToTop
          smooth
          width=""

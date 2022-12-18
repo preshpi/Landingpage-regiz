@@ -88,7 +88,7 @@ label{
   content: 'Show less';
   display: block;  
   visibility: visible;
-  background: #66CC7B;
+  background: #02383C;
   padding: 12px 12px;
   text-align:start;
   border-radius: 50px;
@@ -230,5 +230,7 @@ label:hover:before{
   display: block;
 }
 
-
+svg{
+  fill:white;
+}
   

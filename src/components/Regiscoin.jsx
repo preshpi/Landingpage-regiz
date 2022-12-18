@@ -22,51 +22,26 @@ function Regiscoin() {
         </div>
 
         <div className="mt-5 lg:mt-0 flex items-center justify-center place-items-center" data-aos="fade-right">
-       <div className=" bg-[#66CC7B] text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px]  lg:w-[400px] xl:w-[700px]">
-         <div className="flex text-black justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
+       <div className=" bg-[#02383C] text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px]  lg:w-[400px] xl:w-[700px]">
+         <div className="flex text-white justify-between m-5 text-xl hover:animate-pulse transition-colors duration-200">
             <p>Token Name</p>
             <p className="text-end">Regis coin</p>
          </div>
          <hr className="border-black border-1"/>
-         <div className="flex text-black gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
+         <div className="flex text-white gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
             <p>Symbol</p>
             <p>rgz</p>
          </div>
          <hr className="border-black border-1"/>
-         <div className="flex text-black gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
+         <div className="flex text-white gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
             <p>Token Supply</p>
-            <p>100 billion rgz</p>
+            <p>100 billion</p>
          </div>
          <hr className="border-black border-1"/>
-         <div className="flex text-black gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
+         <div className="flex text-white gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
             <p>Total in Circulation</p>
             <p>57%</p>
          </div>
-         {/* <hr className="border-black border-1"/>
-         <div className="flex text-black gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
-            <p>Liquidity Fee</p>
-            <p>4%</p>
-         </div>
-         <hr className="border-black border-1"/>
-         <div className="flex text-black gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
-            <p>Tax</p>
-            <p>10%</p>
-         </div>
-         <hr className="border-black border-1"/>
-         <div className="flex text-black gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
-            <p>Marketing Fee</p>
-            <p>2%</p>
-         </div>
-         <hr className="border-black border-1"/>
-         <div className="flex text-black gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
-            <p>Developer Fee</p>
-            <p>2%</p>
-         </div>
-         <hr className="border-black border-1"/>
-         <div className="flex text-black gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
-            <p>Charity Fee</p>
-            <p>2%</p>
-         </div> */}
        </div>
 
         </div>
