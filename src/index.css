@@ -172,7 +172,7 @@ label:hover:before{
       /* background-color: gray; */
     }
     .timeline ul li {
-      width: 50%;
+      width: 80%;
       position: relative;
       margin-bottom: 50px;
     }

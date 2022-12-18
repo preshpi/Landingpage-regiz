@@ -2,8 +2,8 @@ import React from 'react'
 
 function Team() {
   return (
-    <div name='team' className="pt-5 dark:lg:pt-20 bg-gray-50 dark:bg-[#0C1017] lg:h-[500px]">
-    <h1 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white text-black font-bold tracking-wide ">Team</h1>
+    <div name='team' className="pt-5 dark:lg:pt-20  dark:bg-[#0C1017] lg:h-[500px] md:h-full mt-24">
+    <h1 className="lg:text-5xl text-3xl text-center  dark:text-white text-black font-bold tracking-wide mt-5">Team</h1>
     <div className="grid lg:grid-cols-4 font-[poppins] text-white m-10  justify-center items-center text-center gap-3">
     
         <div className="p-3" data-aos="fade-up">

@@ -1,122 +1,235 @@
-import React from 'react'
-import { BsApple } from 'react-icons/bs';
-import { DiAndroid } from 'react-icons/di';
-import { HiOutlineChevronUp } from 'react-icons/hi';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import React from "react";
+import { HiOutlineChevronUp } from "react-icons/hi";
+import { Link } from 'react-router-dom'
+import { Link as Navigate, animateScroll as scroll } from "react-scroll";
 import ScrollToTop from "react-scroll-to-top";
 
 function Contact() {
   return (
-    <div name='contact' className="pt-5 dark:bg-[#070909] bg-[#fff]">
-         <h1 className="text-5xl text-center mt-3 dark:text-white text-black font-bold tracking-wide mb-5 p-5">CONTACT</h1>
-
-       <footer className="m-10 flex items-center justify-center ">
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-5 text-center">
-          
-          <div className="mb-6">
-          <div className="flex">
-           <img src='https://res.cloudinary.com/dpokiomqq/image/upload/v1669907395/regiz.io_k42k2m-removebg-preview_hv3mzn.png' className="w-32" alt="logo image"/>
-           <h1 className="font-bold text-5xl flex items-center justify-center dark:text-[#FFFEFE] text-black">Regiz</h1>
-          </div>
-
-           <div className="mb-5 grid-cols-4 grid">
-            <a href="https://facebook.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center grid place-items-center items-center shadow-lg shadow-[#fff] dark:shadow-[#2A97E3]  text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
-               <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667292880/face_dmrevi.png" className="text-center" alt="facebook"/>
-            </a>
-            <a href="https://twitter.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center shadow-lg shadow-[#fff] dark:shadow-[#49B0CC]   leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
-              <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667292881/twi_rx46rh.png" className="text-center" alt="twitter"/>
-            </a>
-            <a href="https://www.linkedin.com/in/Regiz/" type="button" class="rounded-lg grid place-items-center items-center shadow-lg shadow-[#fff] dark:shadow-[#229AC9] text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
-            <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667292880/link_kpp5ag.png" className="text-center" alt="linkedin"/>
-            </a>
-            <a href="https://instagram.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center text-black shadow-lg shadow-[#fff]  dark:shadow-[#CFCFCF] hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
-              <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667292880/insta_e0af8q.png" className="text-center" alt="instagram"/>
-            </a>
-            <a href="https://instagram.com/Regizofficial" type="button" class="grid place-items-center w-12 h-12 m-3">
-              <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1670264143/icons8-envelope-96_owc8uq.png" className="text-center mt-2 w-52" alt="mail" />
-            </a>         
-            <a href="mailto:regizofficial@outlook.com" type="button" class="rounded-lg grid place-items-center items-center shadow-lg shadow-[#fff] dark:shadow-[#2172B9]  text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">      
-            <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667293899/blueout_liiegk.png" className="text-center rounded-[10px] mt-2" alt="outlook"/>
-            </a>
-            <a href="tel: +234 803 211 3990" type="button" class="rounded-lg  items-center grid place-items-center shadow-lg shadow-[#fff] dark:shadow-[#32C96B]  text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">   
-            <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667292881/what_fu4qag.png" className="text-center mt-2" alt="whatsapp"/>
-            </a>
-            <a href="https://telegram.com/Regizofficial" type="button" class="rounded-lg grid place-items-center items-center grid place-items-center items-center shadow-lg shadow-[#fff] dark:shadow-[#22CDFF]  text-black hover:text-[#66CC7B] dark:border-white dark:text-white dark:hover:text-[#66CC7B] leading-normal uppercase hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-2">
-            <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667292881/tele_hl5uvt.png" className="text-center mt-2" alt="telegram"/>
-            </a>
-           </div>
-
-           <div className="mb-7 text-center ">
-            <p className="dark:text-gray-300 text-2xl text-[#000] mt-3">Avaiable on web and also</p>
-            <div className="gap-5 mt-3 flex items-center justify-center">
-            <button class="inline-flex items-center h-10 px-5 py-7 text-indigo-100 transition-colors duration-150 bg-[#1a1b1d] rounded-lg">
-              <span className="text-2xl">ios</span>
-            <BsApple className="text-2xl mx-2 hover:text-[#66CC7B]"/>
-            </button>
-            
-            <button class="inline-flex items-center h-10 px-5 py-7 text-indigo-100 transition-colors duration-150 bg-[#1A1C1F] rounded-lg">
-              <span className="text-2xl">Android</span>
-              <DiAndroid className="text-2xl mx-2 hover:text-[#66CC7B]"/>
-            </button>         
+    <div name='contact' className=" lg:h-[490px]  p-12 bg-[#258c5e] font-[poppins]">
+      <img
+        src="https://res.cloudinary.com/dpokiomqq/image/upload/v1669907395/regiz.io_k42k2m-removebg-preview_hv3mzn.png"
+        className="w-[80px] bg-black rounded-full px-2 py-2"
+      />
+      <div className="grid lg:grid-cols-2 justify-between mt-10">
+        <div className="grid">
+          <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-white">
+            <div>
+              <h3 className="font-extrabold text-[19px] mb-5">Company</h3>
+              <ul>
+                 <li>
+                  <a href="#!" class="text-[#FFFEFE] ">
+                    <Navigate
+                      to="about"
+                      smooth={true}
+                      duration={500}
+                      class="mb-3 text-x hover:text-[#100]"
+                    >
+                      About us
+                    </Navigate>
+                  </a>
+                </li>
+                <li className="mb-3 text-x hover:text-[#100]"> <Link to="/Careers">Careers</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-extrabold text-[19px] mb-5">Support</h3>
+              <ul>
+               <li className="mb-1 text-x hover:text-[#100]"><Link to="/contact">Contact us</Link></li> 
+                <li className="mb-1 text-x hover:text-[#100]"><Link to="/faq">FAQs</Link></li>
+              </ul>
             </div>
 
-          </div>
-          </div>
-
-          <div className="grid">
-            <div class="mb-6 lg:mt-8 lg:mx-5">
-            <h1 className="text-3xl  uppercase mb-2.5  mt-3 dark:text-[#FFFEFE] text-black font-bold tracking-wide">Categories</h1> 
-            
-              <ul class="list-none mb-0">
+            <div>
+              <h3 className="font-extrabold text-[19px] mb-5">Categories</h3>
+              <ul>
                 <li>
-                  <a href="#!" class="dark:text-[#FFFEFE] text-black">
-                  <Link to="Regiscoin"  smooth={true}  duration={500} className="mb-3 mt-5 text-xl hover:text-[#66CC7B]"> What is Regiscoin</Link>
+                  <a href="#!" class="text-[#FFFEFE] ">
+                    <Navigate
+                      to="Regiscoin"
+                      smooth={true}
+                      duration={500}
+                      className="mb-3 mt-5 text-x hover:text-[#100]"
+                    >
+                      {" "}
+                      What is Regiscoin
+                    </Navigate>
                   </a>
                 </li>
                 <li>
-                  <a href="#!" class="dark:text-[#FFFEFE] text-black">  <Link to="how"  smooth={true}  duration={500} class="mt-3 mb-3 text-xl hover:text-[#66CC7B]">How it works</Link></a>
+                  <a href="#!" class="text-[#FFFEFE] ">
+                    {" "}
+                    <Navigate
+                      to="how"
+                      smooth={true}
+                      duration={500}
+                      class="mt-3 mb-4 text-x hover:text-[#100]"
+                    >
+                      How it works
+                    </Navigate>
+                  </a>
                 </li>
                 <li>
-                  <a href="#!" class="dark:text-[#FFFEFE] text-black"><Link to="roadmap"  smooth={true} offset={-100} duration={500} class="mt-3 mb-3 text-xl hover:text-[#66CC7B]">Roadmap</Link></a>
+                  <a href="#!" class="text-[#FFFEFE] ">
+                    <Navigate
+                      to="roadmap"
+                      smooth={true}
+                      offset={-100}
+                      duration={500}
+                      class="mt-3 mb-3 text-x hover:text-[#100]"
+                    >
+                      Roadmap
+                    </Navigate>
+                  </a>
                 </li>
               </ul>
             </div>
 
-            <div class="mb-6 lg:mt-8">
-            <h1 className="text-3xl  uppercase mb-2.5  mt-3 dark:text-[#FFFEFE] text-black font-bold tracking-wide">Pages</h1> 
-
-              <ul class="list-none mb-0">
+            <div>
+              <h3 className="font-extrabold text-[19px] mb-5">Pages</h3>
+              <ul>
                 <li>
-                  <a href="#!" class="dark:text-[#FFFEFE] text-black"><Link to="about"  smooth={true}  duration={500} class="mt-5 mb-3 text-xl hover:text-[#66CC7B]">About</Link></a>
+                  <a href="#!" class="text-[#FFFEFE] ">
+                    {" "}
+                    <Navigate
+                      to="feature"
+                      smooth={true}
+                      duration={500}
+                      class="mt-3 mb-3 text-x hover:text-[#100]"
+                    >
+                      Features
+                    </Navigate>
+                  </a>
                 </li>
                 <li>
-                  <a href="#!" class="dark:text-[#FFFEFE] text-black"> <Link to="feature"  smooth={true}  duration={500} class="mt-3 mb-3 text-xl hover:text-[#66CC7B]">Features</Link></a>
-                </li>
-                <li>
-                  <a href="#!" class="dark:text-[#FFFEFE] text-black"><Link to="benefit"  smooth={true}  duration={500} class="mt-3 mb-3 text-xl hover:text-[#66CC7B]">Benefit</Link></a>
+                  <a href="#!" class="text-[#FFFEFE] ">
+                    <Navigate
+                      to="benefit"
+                      smooth={true}
+                      duration={500}
+                      class="mt-3 mb-3 text-x hover:text-[#100]"
+                    >
+                      Benefit
+                    </Navigate>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
-         </div>
-      </footer> 
+        </div>
 
-      <hr className="dark:border-[#FFF] border-black"/>
-       <div class="text-center p-4">
-            © 2022 Regiz
-            <p class="dark:text-[#FFFEFE] text-black text-xl"> - All Rights Reserved.</p>
-       </div> 
+        <div className="mt-10 lg:justify-end lg:items-end lg:text-end">
+          <h3 className=" text-white font-bold mb-5 text-xl">Connect with us</h3>
+          <div className="flex mb-6 lg:justify-end">
+            <a
+              href="https://facebook.com/Regizofficial"
+              type="button"
+              className="rounded-full border-2 text-[#258c5e] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="facebook-f"
+                className="w-2 h-full mx-auto"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                ></path>
+              </svg>
+            </a>
 
- 
-       <ScrollToTop  
-        smooth
-        width=""
-        component={<p><HiOutlineChevronUp className="text-[#66CC7B] w-10 text-3xl"/></p>}
-       /> 
+            <a
+              href="https://twitter.com/Regizofficial"
+              type="button"
+              className="rounded-full border-2 text-[#258c5e] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="twitter"
+                className="w-3 h-full mx-auto"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                ></path>
+              </svg>
+            </a>
 
-       
+            <a
+              href="https://instagram.com/Regizofficial"
+              type="button"
+              className="rounded-full border-2 text-[#258c5e] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="instagram"
+                className="w-3 h-full mx-auto"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                ></path>
+              </svg>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/Regiz/"
+              type="button"
+              className="rounded-full border-2 text-[#258c5e] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="linkedin-in"
+                className="w-3 h-full mx-auto"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                ></path>
+              </svg>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+         <div className="grid lg:grid-cols-2 justify-between mt-10 text-white">
+            <div className="mb-3">
+              <span className="hover:underline">Privacy |</span> 
+              <span className="hover:underline"> Terms</span>
+               <p className="mt-3">© 2022 Regiz. All rights reserved.</p>
+            </div>
+            <div className="lg:justify-end lg:items-end lg:text-end">
+              <p>Made with ♡</p>
+            </div>
+          </div>
+       <ScrollToTop
+         smooth
+         width=""
+         component={<p><HiOutlineChevronUp className="text-[#66CC7B] w-10 text-3xl"/></p>}
+        />
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

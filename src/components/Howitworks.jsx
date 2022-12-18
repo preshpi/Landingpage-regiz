@@ -2,7 +2,7 @@ import React from 'react'
 import { FaStarOfLife } from 'react-icons/fa';
 function Howitworks() {
   return (
-    <div name='how' className="bg-gray-100  dark:bg-[#070909] pt-5">
+    <div name='how' className="bg-gray-100  dark:bg-[#070909] pt-5 mt-24">
     <h1 className="lg:text-5xl text-3xl text-center  dark:text-[#fff] text-black font-bold tracking-wide mb-5 pt-5">How it works</h1>
     <div className="">
      <div className="lg:m-10 m-5 grid lg:grid-cols-2">

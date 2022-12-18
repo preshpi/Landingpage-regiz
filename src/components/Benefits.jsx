@@ -2,11 +2,11 @@ import React from 'react'
 import { GiCheckMark } from 'react-icons/gi';
 function Benefits() {
   return (
-    <div name='benefit' className=" dark:bg-[#0C1017]  bg-gray-100 dark:text-[#fff] pt-5 lg:h-[600px]">
+    <div name='benefit' className=" dark:bg-[#0C1017]  bg-gray-100 dark:text-[#fff] pt-5 lg:h-[600px] h-[980px] mt-24 justify-center place-items-center">
       <h1 className="lg:text-5xl text-3xl text-center mt-3 text-black font-bold tracking-wide mb-5 dark:text-[#fff] pt-8">BENEFITS</h1>
 
-      <div className="justify-between place-items-center items-center font-[poppins] " data-aos="fade-up">
-        <div className="lg:m-10 m-5 grid lg:grid-cols-2 margin-auto xl:gap-20 lg:gap-10">
+      <div className=" font-[poppins] " data-aos="fade-up">
+        <div className="lg:m-10 m-5 lg:flex place-items-center items-center justify-center margin-auto xl:gap-20 lg:gap-10">
 
             <div className="gap-5">
               <div className="flex md:grid-cols-2">
@@ -94,7 +94,7 @@ function Benefits() {
                 </div>
               </div>
             </div>
-      </div>
+        </div>
       </div>
     </div>
   )

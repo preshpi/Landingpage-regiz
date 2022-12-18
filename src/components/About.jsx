@@ -7,7 +7,7 @@ function About() {
     
     <div className="dark:text-gray-300 about-text text-black">
      
-      <div className="box place-items-center lg:text-start text-center justify-center items-center  lg:w-[800px] md:w-[500px] w-[300px]  m-10">
+      <div className="box place-items-center lg:text-start text-center justify-center items-center  lg:w-[950px] md:w-[500px] w-[300px]  m-10">
       <input type="checkbox" id="check"/>
 
       {/* Wording spacing in small screen */}

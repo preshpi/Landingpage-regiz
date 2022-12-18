@@ -13,7 +13,7 @@ import { BsWallet2,BsChatText } from 'react-icons/bs';
 
 function Features() {
   return (
-    <div name='feature' className="pt-5  bg-[#fff] dark:bg-[#070909]  p-12">
+    <div name='feature' className="pt-5  bg-[#fff] dark:bg-[#070909]  p-12 mt-24">
      <h1 className="lg:text-5xl text-3xl text-center mt-3 pt-5 text-black font-bold tracking-wide mb-5 dark:text-white">FEATURES</h1>
          <div className="lg:m-5 m-10 mt-5">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 mb-[20px] place-items-center justify-center" data-aos="fade-up">
