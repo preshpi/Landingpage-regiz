@@ -6,7 +6,7 @@ function Roadmap() {
       name="roadmap"
       className="text-white pt-5 dark:lg:pt-20 mt-24 dark:bg-[#0C1017] bg-[#F3F4F6]"
     >
-      <h1 className="text-5xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 p-5">
+      <h1 className="text-5xl text-center mt-3 dark:text-white text-black font-bold tracking-wide mb-5 p-5">
         Roadmap
       </h1>
       <p className="text-gray-500 text-xl leading-5 text-center font-[poppins] p-5">

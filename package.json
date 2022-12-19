@@ -16,7 +16,9 @@
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.5.0",
     "react-scroll": "^1.8.8",
-    "react-scroll-to-top": "^3.0.0"
+    "react-scroll-to-top": "^3.0.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.6.15"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",

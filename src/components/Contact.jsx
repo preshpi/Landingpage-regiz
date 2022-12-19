@@ -234,7 +234,7 @@ function Contact() {
         width=""
         component={
           <p>
-            <HiOutlineChevronUp className="text-[#66CC7B] w-10 text-3xl" />
+            <HiOutlineChevronUp className="text-[#02383C] w-10 text-3xl" />
           </p>
         }
       />
