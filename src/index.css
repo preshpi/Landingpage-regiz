@@ -57,6 +57,11 @@ body{
   word-spacing: -2px;
 }
 
+.word-about{
+  text-align:justify;
+  word-break:keep-all;
+}
+
 
 #check{
     display: none;
@@ -207,10 +212,10 @@ label:hover:before{
     }
     .timeline-content .date {
       position: absolute;
-      top: -30px;
+      top: -50px;
     }
     .timeline ul li:hover::before {
-      background-color: #66CC7B;
+      background-color: #02383C;
     }
   }
 
@@ -234,3 +239,72 @@ svg{
   fill:white;
 }
   
+
+
+/* Define the overall container for the roadmap */
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Define the style for each milestone on the roadmap */
+.roadmap__milestone {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 40px;
+}
+
+/* Define the style for the milestone title */
+.roadmap__milestone-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+/* Define the style for the milestone description */
+.roadmap__milestone-description {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* Define the style for the timeline between milestones */
+.roadmap__timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  position: relative;
+}
+
+/* Define the style for the timeline marker */
+.roadmap__timeline-marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 10px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Define the style for the timeline arrow */
+.roadmap__timeline-arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ccc;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}

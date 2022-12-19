@@ -201,7 +201,7 @@ function Personna() {
             alt="boywithlaptop"
             className="w-72"
           />
-          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 w-[600px] leading-8">
+          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
             The HR manager needs to Verify if the certificates attached to each
             applicant's CV are Genuine.{" "}
           </p>
@@ -216,11 +216,11 @@ function Personna() {
             alt="boywithtablet"
             className="w-56"
           />
-          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 w-[600px] leading-8">
+          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
             To reduce the cost and time of the Verification exercise, He
             Downloads the regiz APP from the device play store.
           </p>
-          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 w-[600px] leading-8">
+          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
             He then signed up and created a Business suite Account.
           </p>
         </div>
@@ -234,13 +234,13 @@ function Personna() {
             alt="girlwithlaptop"
             className="w-56"
           />
-          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 w-[600px] leading-8">
+          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
             In a few moments, the team was able to verify if the certificates
             submitted by the applicants were authentic. They entered the
             Document ID provided by the applicant into the Regiz Document Search
             app.
           </p>
-          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 w-[600px] leading-8 tracking-wide">
+          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8 tracking-wide">
             The first Document they searched popped up with a Notification
             displaying (Genuine Grade A) I.e, certificate Genuine and verified.
           </p>
@@ -255,11 +255,11 @@ function Personna() {
             alt="girlwithlaptop"
             className="w-56"
           />
-          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 w-[600px] leading-8">
+          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
             Their second search popped up with a notification that read,
             (Genuine Grade B) i.e, the certificate was genuine but not verified.
           </p>
-          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 w-[600px] leading-8">
+          <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
             The Third Document they searched popped up with a Notification
             displaying (Invalid) I.e, not uploaded or in-genuine.
           </p>

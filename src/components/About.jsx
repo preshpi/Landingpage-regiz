@@ -12,7 +12,7 @@ function About() {
 
       {/* Wording spacing in small screen */}
 
-      <p className="text-xl mt-3 lg:leading-10 lg:tracking-wider leading-9 break-word lg:words">
+      <p className="sm:text-[14px] text-[16px] lg:text-[1rem] md:text-[1rem] mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word word-about w-[300px] lg:w-full md:w-[600px]">
        Regiz is a Generation Alpha Digital documentation
        technology (DOCUTECH) project that focuses on the authentication, verification, and digitization 
        of documents so that they can be electronically stored more compactly and securely. 
@@ -22,24 +22,24 @@ function About() {
       </p>
 
        <div className="content">
-        <p className="text-xl text-center lg:text-start mt-3 lg:leading-10 lg:tracking-wider tracking-wide leading-9 lg:words">
+        <p className="sm:text-[14px] text-[16px] lg:text-[1rem] md:text-[1rem] mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word word-about w-[300px] lg:w-full md:w-[600px]">
         The Document would be snapped and uploaded on the Regiz platform in selected 
         formats e.g pdf. Every document that is uploaded will be minted upon and given a 
         unique identification code, which will automatically make it a certified digital copy;
         Thereby eradicating fake or in-genuine digital copies of a document.         
         </p>
 
-        <p className="text-xl text-center lg:text-start mt-3 lg:leading-10 lg:tracking-wider tracking-wide leading-9 lg:words">
+        <p className="sm:text-[14px] text-[16px] lg:text-[1rem] md:text-[1rem] mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word word-about w-[300px] lg:w-full md:w-[600px]">
         A verification and validation process will be applied to all certificate issued by institutions and organizations that are registered with the government.
         <p> With the owner's permission, third parties can also check up on these documents for confirmation purposes 
         (using the Regiz app). This allows anyone to verify its legitimacy globally.</p>
         </p>
-        <p className="text-xl text-center lg:text-start mt-3 lg:leading-10 lg:tracking-wider tracking-wide leading-9 lg:words">
+        <p className="sm:text-[14px] text-[16px] lg:text-[1rem] md:text-[1rem] mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word word-about w-[300px] lg:w-full md:w-[600px]">
         Regiz will be a decentralized application based on blockchain technology where users 
         will have control over their data much like they do over their money.
         </p>
 
-        <p className="text-xl text-center lg:text-start mt-3 leading-8 tracking-wide lg:words">
+        <p className="sm:text-[14px] text-[16px] lg:text-[1rem] md:text-[1rem] mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word word-about w-[300px] lg:w-full md:w-[500px]">
         These documents will then become digital assets with monetary value.
         </p>
        

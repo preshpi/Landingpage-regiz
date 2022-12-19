@@ -1,12 +1,15 @@
 import React from "react";
 import { HiOutlineChevronUp } from "react-icons/hi";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import { Link as Navigate, animateScroll as scroll } from "react-scroll";
 import ScrollToTop from "react-scroll-to-top";
 
 function Contact() {
   return (
-    <div name='contact' className=" lg:h-[490px]  p-12 bg-[#02383C] font-[poppins]">
+    <div
+      name="contact"
+      className=" lg:h-[490px]  p-12 bg-[#02383C] font-[poppins]"
+    >
       <img
         src="https://res.cloudinary.com/dpokiomqq/image/upload/v1669907395/regiz.io_k42k2m-removebg-preview_hv3mzn.png"
         className="w-[80px] bg-black rounded-full px-2 py-2"
@@ -17,7 +20,7 @@ function Contact() {
             <div>
               <h3 className="font-extrabold text-[19px] mb-5">Company</h3>
               <ul>
-                 <li>
+                <li>
                   <a href="#!" class="text-[#FFFEFE] ">
                     <Navigate
                       to="about"
@@ -29,14 +32,21 @@ function Contact() {
                     </Navigate>
                   </a>
                 </li>
-                <li className="mb-3 text-x hover:text-[#100]"> <Link to="/Careers">Careers</Link></li>
+                <li className="mb-3 text-x hover:text-[#100]">
+                  {" "}
+                  <Link to="/Careers">Careers</Link>
+                </li>
               </ul>
             </div>
             <div>
               <h3 className="font-extrabold text-[19px] mb-5">Support</h3>
               <ul>
-               <li className="mb-1 text-x hover:text-[#100]"><Link to="/contact">Contact us</Link></li> 
-                <li className="mb-1 text-x hover:text-[#100]"><Link to="/faq">FAQs</Link></li>
+                <li className="mb-1 text-x hover:text-[#100]">
+                  <Link to="/contact">Contact us</Link>
+                </li>
+                <li className="mb-1 text-x hover:text-[#100]">
+                  <Link to="/faq">FAQs</Link>
+                </li>
               </ul>
             </div>
 
@@ -119,7 +129,9 @@ function Contact() {
         </div>
 
         <div className="mt-10 lg:justify-end lg:items-end lg:text-end">
-          <h3 className=" text-white font-bold mb-5 text-xl">Connect with us</h3>
+          <h3 className=" text-white font-bold mb-5 text-xl">
+            Connect with us
+          </h3>
           <div className="flex mb-6 lg:justify-end">
             <a
               href="https://facebook.com/Regizofficial"
@@ -208,21 +220,24 @@ function Contact() {
                 ></path>
               </svg>
             </a>
-
           </div>
         </div>
       </div>
 
-        <div className="mb-3 text-white">
-              <span className="hover:underline">Privacy |</span> 
-              <span className="hover:underline"> Terms</span>
-               <p className="mt-3">© 2022 Regiz LLC. All rights reserved.</p>
-            </div>
-       <ScrollToTop
-         smooth
-         width=""
-         component={<p><HiOutlineChevronUp className="text-[#66CC7B] w-10 text-3xl"/></p>}
-        />
+      <div className="mb-3 text-white">
+        <span className="hover:underline">Privacy |</span>
+        <span className="hover:underline"> Terms</span>
+        <p className="mt-3">© 2022 Regiz LLC. All rights reserved.</p>
+      </div>
+      <ScrollToTop
+        smooth
+        width=""
+        component={
+          <p>
+            <HiOutlineChevronUp className="text-[#66CC7B] w-10 text-3xl" />
+          </p>
+        }
+      />
     </div>
   );
 }

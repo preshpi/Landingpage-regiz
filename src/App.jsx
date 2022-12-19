@@ -78,9 +78,9 @@ function App() {
             <h3 className="text-[#FEFEFF] text-3xl font-sans">Regiz</h3>
           </div>
           {/* Links for desxtop */}
-          <ul className="gap-8 lg:mx-40 md:mx-[80px] xxl:mx-[900px]  uppercase md:flex hidden lg:flex">
+          <ul className="gap-8 lg:mx-40 md:mx-[80px] xxl:mx-[900px]  uppercase md:flex hidden lg:flex mt-3">
             <a href="#">
-              <li className="line mb-2 hover:text-[#66CC7B] text-[#fff] cursor-pointer ">
+              <li className="line hover:text-[#66CC7B] text-[#fff] cursor-pointer ">
                 Home
               </li>
             </a>
@@ -381,7 +381,7 @@ function App() {
             <button
               type="button"
               onClick={handleThemeSwitch}
-              className="fixed z-10 right-2 top-2 bg-[#3CC3A9] text-lg px-2 py-2 mx-8 mb-8  rounded-md"
+              className="fixed z-10 right-2 top-2 bg-[#3CC3A9] text-lg px-3 py-2 mt-3 mx-8 mb-8  rounded-md"
             >
               {theme === "dark" ? (
                 <div className="text-white">
@@ -412,11 +412,11 @@ function App() {
             }
           >
             <div className="flex flex-col">
-              <li className="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase cursor-pointer">
+              <li className="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase cursor-pointer">
                 <a href="/">Home</a>
               </li>
 
-              <li className="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+              <li className="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
                 <Link
                   onClick={handleClose}
                   to="about"
@@ -428,7 +428,7 @@ function App() {
                 </Link>
               </li>
 
-              <div class="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+              <div class="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
                 <div>
                   <div class="dropdown relative">
                     <button
@@ -542,7 +542,7 @@ function App() {
                 </div>
               </div>
 
-              <div class="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+              <div class="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
                 <div>
                   <div class="dropdown relative">
                     <button
@@ -727,7 +727,7 @@ function App() {
                 </div>
               </div>
 
-              <li className="w-full mb-3 text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+              <li className="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
                 <Link
                   onClick={handleClose}
                   to="roadmap"
@@ -739,7 +739,7 @@ function App() {
                 </Link>
               </li>
 
-              <li className="w-full text-[#000101] hover:bg-[#66CC7B] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+              <li className="w-full text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
                 <Link
                   onClick={handleClose}
                   to="contact"
@@ -771,7 +771,7 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-white dark:bg-[#0C1017] min-h-screen font-inter">
+      <div className="bg-white dark:bg-[#070909] min-h-screen font-inter">
         <div className="overflow-hidden">
           <Router>
             <Routes>
