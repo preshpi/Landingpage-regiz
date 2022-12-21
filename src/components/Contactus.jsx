@@ -50,7 +50,7 @@ function Contactus() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="flex place-items-center items-center justify-center h-[100%] font-[poppins]">
+      <div className="flex place-items-center items-center justify-center lg:mt-[8%] font-[poppins]">
         <div className="grid lg:grid-cols-2">
           <div className="dark:text-[#FFFFFF] text-black md:w-[500px] lg:w-[500px] p-5 place-items-center items-center justify-center">
             <h2 className="font-bolder text-4xl">Get in touch</h2>
@@ -87,9 +87,9 @@ function Contactus() {
           <div className="flex justify-center items-center ">
             <form
               onSubmit={handleSubmit}
-              className=" xl:max-w-[100%] bg-gray-200 rounded-[30px] flex justify-center items-center place-items-center  lg:mt-0 mt-32"
+              className="  bg-gray-200 rounded-[30px] flex justify-center items-center place-items-center  lg:mt-0 mt-32"
             >
-              <div className="lg:w-[490px] md:w-[600px] w-[350px] place-items-center items-center justify-center flex flex-col">
+              <div className="lg:w-[490px] md:w-[600px] w-[350px] h-auto place-items-center items-center justify-center flex flex-col">
                 <h3 className="text-3xl font-[800px] text-center px-5 py-5 mt-5">
                   Get started
                 </h3>

@@ -67,7 +67,7 @@ function App() {
           ".link",
         ]}
       />
-      <div className="w-screen h-[80px] z-10 fixed drop-shadow-lg bg-[#02383C]  text-black dark:text-white">
+      <div className="fixed w-full top-0 z-10 h-[80px] drop-shadow-lg bg-[#02383C]  text-black dark:text-white">
         <div className=" flex justify-between items-center w-full h-full shadow-lg cursor-pointer">
           {/* logo image */}
           <div className="lg:flex items-center md:hidden flex">

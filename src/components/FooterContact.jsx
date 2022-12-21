@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div
       name='contact'
-      className=" lg:h-[490px]  p-12 bg-[#02383C] font-[poppins]"
+      className=" lg:h-[390px]  p-12 bg-[#02383C] font-[poppins]"
     >
       <img
         src="https://res.cloudinary.com/dpokiomqq/image/upload/v1669907395/regiz.io_k42k2m-removebg-preview_hv3mzn.png"
@@ -18,110 +18,16 @@ function Contact() {
         <div className="grid">
           <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-white">
             <div>
-              <h3 className="font-extrabold text-[19px] mb-5">Company</h3>
-              <ul>
-                <li>
-                  <a href="#!" class="text-[#FFFEFE] ">
-                    <Navigate
-                      to="about"
-                      smooth={true}
-                      duration={500}
-                      class="mb-3 text-x hover:text-[#100]"
-                    >
-                      About us
-                    </Navigate>
-                  </a>
-                </li>
-                <li className="mb-3 text-x hover:text-[#100]">
-                  {" "}
-                  <Link to="/Careers">Careers</Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-extrabold text-[19px] mb-5">Support</h3>
-              <ul>
-                <li className="mb-1 text-x hover:text-[#100]">
-                  <Link to="/contact">Contact us</Link>
-                </li>
-                <li className="mb-1 text-x hover:text-[#100]">
-                  <Link to="/faq">FAQs</Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-extrabold text-[19px] mb-5">Categories</h3>
-              <ul>
-                <li>
-                  <a href="#!" class="text-[#FFFEFE] ">
-                    <Navigate
-                      to="Regiscoin"
-                      smooth={true}
-                      duration={500}
-                      className="mb-3 mt-5 text-x hover:text-[#100]"
-                    >
-                      {" "}
-                      What is Regiscoin
-                    </Navigate>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="text-[#FFFEFE] ">
-                    {" "}
-                    <Navigate
-                      to="how"
-                      smooth={true}
-                      duration={500}
-                      class="mt-3 mb-4 text-x hover:text-[#100]"
-                    >
-                      How it works
-                    </Navigate>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="text-[#FFFEFE] ">
-                    <Navigate
-                      to="roadmap"
-                      smooth={true}
-                      offset={-100}
-                      duration={500}
-                      class="mt-3 mb-3 text-x hover:text-[#100]"
-                    >
-                      Roadmap
-                    </Navigate>
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
               <h3 className="font-extrabold text-[19px] mb-5">Pages</h3>
               <ul>
-                <li>
-                  <a href="#!" class="text-[#FFFEFE] ">
-                    {" "}
-                    <Navigate
-                      to="feature"
-                      smooth={true}
-                      duration={500}
-                      class="mt-3 mb-3 text-x hover:text-[#100]"
-                    >
-                      Features
-                    </Navigate>
-                  </a>
+                
+                <li className="mb-3 text-x hover:text-[#100]">
+                  {" "}               
+                  <Link to="/Careers">Careers</Link>
                 </li>
-                <li>
-                  <a href="#!" class="text-[#FFFEFE] ">
-                    <Navigate
-                      to="benefit"
-                      smooth={true}
-                      duration={500}
-                      class="mt-3 mb-3 text-x hover:text-[#100]"
-                    >
-                      Benefit
-                    </Navigate>
-                  </a>
+
+                <li className="mb-3 text-x hover:text-[#100]">
+                    <Link to="/">Home</Link>
                 </li>
               </ul>
             </div>
