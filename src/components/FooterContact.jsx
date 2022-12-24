@@ -11,7 +11,7 @@ function Contact() {
       className=" lg:h-[390px]  p-12 bg-[#02383C] font-[poppins]"
     >
       <img
-        src="https://res.cloudinary.com/dpokiomqq/image/upload/v1669907395/regiz.io_k42k2m-removebg-preview_hv3mzn.png"
+        src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
         className="w-[80px] bg-black rounded-full px-2 py-2"
       />
       <div className="grid lg:grid-cols-2 justify-between mt-10">

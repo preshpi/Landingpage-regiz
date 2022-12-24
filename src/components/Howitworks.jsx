@@ -6,8 +6,8 @@ function Howitworks() {
       <h1 className="lg:text-5xl text-3xl text-center  dark:text-[#fff] text-black font-bold tracking-wide mb-5 pt-5">
         How it works
       </h1>
-      <div className="">
-        <div className="lg:m-10 m-5 grid lg:grid-cols-2" data-aos="fade-up">
+      <div>
+        <div className="lg:m-10 m-5 lg:flex" data-aos="fade-up">
           <div>
             <ul className="text-black lg:m-10 m-5">
               <h3 className="lg:text-3xl text-2xl dark:text-[#fff] text-black mb-7 font-bold text-start">
@@ -73,10 +73,9 @@ function Howitworks() {
             </ul>
           </div>
 
-          <div className="flex items-center justify-center">
-            <div className="justify-center items-center lg:grid">
+          <div>
               <ul className="text-black lg:m-10 m-5">
-                <h3 className="lg:text-3xl text-2xl dark:text-[#fff] text-black mb-7 font-bold text-start">
+                <h3 className="llg:text-3xl text-2xl dark:text-[#fff] text-black mb-7 font-bold text-start">
                   Social market place
                 </h3>
 
@@ -127,7 +126,6 @@ function Howitworks() {
                   </li>
                 </div>
               </ul>
-            </div>
           </div>
         </div>
       </div>

@@ -12,11 +12,11 @@ function Regiscoin() {
           data-aos="fade-left"
           className=" leading-10  m-5 lg:text-start  break-word place-items-center"
         >
-          <p className=" dark:text-white text-black  text-xl  lg:text-2xl w-[320px] md:w-[400px] lg:w-[600px]">
+          <p className=" dark:text-white text-black  text-xl  lg:text-2xl w-[320px] md:w-[400px] lg:w-[500px]">
             Regiscoin is a token owned by Regiz LLC.
           </p>
 
-          <p className=" dark:text-white text-black mt-3  text-[1.2rem]  lg:leading-[52px] leading-10  lg:text-xl w-[310px] md:w-[400px] lg:w-[600px] break-word words">
+          <p className=" dark:text-white text-black mt-3  text-[1.2rem]  lg:leading-[52px] leading-10  lg:text-xl w-[310px] md:w-[400px] lg:w-[500px] break-word words">
             Regiscoin will be used for payments to access services on the
             platform. Either on the Documentation Technology platform or Social
             Marketplace, Regiscoin will be our acceptable transaction currency.
@@ -30,7 +30,7 @@ function Regiscoin() {
           className="mt-5 lg:mt-0 flex items-center justify-center place-items-center"
           data-aos="fade-up"
         >
-          <div className=" bg-[#02383C] text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px]  lg:w-[400px] xl:w-[700px]">
+          <div className=" bg-[#02383C] text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px]  lg:w-[400px]">
             <div className="flex text-white justify-between m-5 text-xl hover:animate-pulse transition-colors duration-200">
               <p>Token Name</p>
               <p className="text-end">Regis coin</p>

@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi"
 import { AiOutlineClose } from "react-icons/ai"
 import AnimatedCursor from "react-animated-cursor";
 import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
+const LazyContact = React.lazy(() => import('./Pages/Contact'))
 import CareerPage from "./Pages/CareerPage";
 import Faqs from "./Pages/Faqs";
 import Aos from "aos";
@@ -70,9 +70,9 @@ function App() {
       <div className="fixed w-full top-0 z-10 h-[80px] drop-shadow-lg bg-[#02383C]  text-black dark:text-white">
         <div className=" flex justify-between items-center w-full h-full shadow-lg cursor-pointer">
           {/* logo image */}
-          <div className="lg:flex items-center md:hidden flex">
+          <div className="lg:flex items-center md:hidden flex px-10">
             <img
-              src="https://res.cloudinary.com/dpokiomqq/image/upload/v1669907395/regiz.io_k42k2m-removebg-preview_hv3mzn.png"
+              src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
               className="w-16"
             />
             <h3 className="text-[#FEFEFF] text-3xl font-sans">Regiz</h3>
@@ -378,10 +378,10 @@ function App() {
               </li>
             </a>
 
-            <button
+             <button
               type="button"
               onClick={handleThemeSwitch}
-              className="fixed z-10 right-2 top-2 bg-[#3CC3A9] text-lg px-3 py-2 mt-3 mx-8 mb-8  rounded-md"
+              className="fixed z-10 right-2 top-2 bg-[#3CC3A9] text-lg px-3 py-2 mt-3 mx-10 mb-8  rounded-md"
             >
               {theme === "dark" ? (
                 <div className="text-white">
@@ -392,7 +392,9 @@ function App() {
                   <ion-icon name="moon"></ion-icon>
                 </div>
               )}
-            </button>
+            </button> 
+         
+            
           </ul>
 
           <div className="md:hidden pr-8 cursor-pointer" onClick={handleClick}>
@@ -776,7 +778,11 @@ function App() {
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/contact" element={
+              <React.Suspense fallback='Loading...'>
+               <LazyContact />
+              </React.Suspense>
+              } /> 
               <Route path="/faq" element={<Faqs />} />
               <Route path="/careers" element={<CareerPage />} />
             </Routes>
