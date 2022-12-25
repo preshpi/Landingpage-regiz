@@ -369,12 +369,21 @@ function App() {
             </a>
             <a href="#">
               <li className="line mb-2 hover:text-[#66CC7B] text-[#fff] cursor-pointer ">
-                Roadmap
+                <Link to='roadmap'
+                smooth={true}
+                duration={500}>
+                  Roadmap
+                </Link>
+                
               </li>
             </a>
             <a href="#">
               <li className="line mb-2 hover:text-[#66CC7B] text-[#fff] cursor-pointer ">
-                Contact
+                <Link to='contact'
+                smooth={true}
+                duration={500}>
+                  Contact
+                </Link>
               </li>
             </a>
 

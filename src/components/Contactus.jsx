@@ -51,17 +51,17 @@ function Contactus() {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="flex place-items-center items-center justify-center lg:mt-[8%] font-[poppins]">
-        <div className="grid lg:grid-cols-2">
-          <div className="dark:text-[#FFFFFF] text-black md:w-[500px] lg:w-[500px] p-5 place-items-center items-center justify-center">
+        <div className="grid lg:grid-cols-2 gap-8 mb-[100px]">
+          <div className="dark:text-[#FFFFFF] text-black md:w-[500px] lg:w-[500px] p-5 place-items-center items-center justify-center lg:mt-0 mt-24">
             <h2 className="font-bolder text-4xl">Get in touch</h2>
 
-            <p className="lg:w-[400px] mt-[50px] leading-8 text-xl">
+            <p className="lg:w-[400px] mt-[30px] leading-8 text-xl">
               Use our contact form for all information requests or contact us
               directly using the contact information below.
             </p>
 
             <div>
-              <p className="lg:w-[500px] mt-[50px] leading-8 text-xl">
+              <p className="lg:w-[500px] mt-[30px] leading-8 text-xl">
                 Feel free to get in touch with us via email or phone
               </p>
               <hr className="border-1 border-[#02383C] lg:w-[450px] md:w-[500px]  w-[343px] mt-[30px]" />
